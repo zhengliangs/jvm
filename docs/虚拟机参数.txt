@@ -1,8 +1,0 @@
-java虚拟机参数设置3中方式
-
--XX:+<option> 表示开启选项
--XX:-<option> 表示关闭选项
--XX:<option>=<value> 表示将option的值设置为vlaue
-
--XX:+TraceClassLoading  用于追踪类的加载信息并打印
-
