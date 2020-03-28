@@ -5,7 +5,6 @@ import java.util.Random;
 /**
  * @author hero良
  * @className MyTest8
- * @description TODO
  * @date 2020/3/23
  */
 public class MyTest8 {

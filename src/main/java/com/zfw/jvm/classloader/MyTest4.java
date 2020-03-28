@@ -5,7 +5,6 @@ import java.sql.SQLOutput;
 /**
  * @author hero良
  * @className MyTest4
- * @description TODO
  * @date 2020/3/22
  */
 public class MyTest4 {

@@ -3,7 +3,6 @@ package com.zfw.jvm.classloader;
 /**
  * @author hero良
  * @className MyTest2
- * @description TODO
  * @date 2020/3/21
  */
 // 助记符
