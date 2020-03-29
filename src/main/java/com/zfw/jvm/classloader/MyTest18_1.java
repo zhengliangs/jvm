@@ -5,4 +5,14 @@ package com.zfw.jvm.classloader;
  * @classname MyTest18_1
  */
 public class MyTest18_1 {
+
+    public static void main(String[] args) throws Exception {
+        MyTest16 loader1 = new MyTest16("loader1");
+        loader1.setPath("C:\\Users\\郑良\\Desktop\\");
+        //将要加载的class文放到根类加载器加载的目录中
+        Class<?> clazz = loader1.loadClass("com.zfw.jvm.classloader.MyTest1");
+        System.out.println("class loader: " + clazz.getClassLoader());
+        System.out.println("hashCode: "+ clazz.hashCode());
+
+    }
 }
