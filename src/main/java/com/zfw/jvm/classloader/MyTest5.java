@@ -1,10 +1,8 @@
 package com.zfw.jvm.classloader;
 
-import java.util.Random;
-
 /**
  * @author hero良
- * @className MyTest5
+ * @classname MyTest5
  * @date 2020/3/22
  */
 public class MyTest5 {

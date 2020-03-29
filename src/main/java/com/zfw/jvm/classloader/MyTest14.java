@@ -6,7 +6,7 @@ import java.util.Enumeration;
 
 /**
  * @author hero良
- * @className MyTest14
+ * @classname MyTest14
  */
 public class MyTest14 {
 

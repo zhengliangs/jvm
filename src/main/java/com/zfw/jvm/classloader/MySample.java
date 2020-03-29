@@ -2,7 +2,7 @@ package com.zfw.jvm.classloader;
 
 /**
  * @author hero良
- * @className MySample
+ * @classname MySample
  * @date 2020/3/28
  */
 public class MySample {

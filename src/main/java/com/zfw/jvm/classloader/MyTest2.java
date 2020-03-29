@@ -2,7 +2,7 @@ package com.zfw.jvm.classloader;
 
 /**
  * @author hero良
- * @className MyTest2
+ * @classname MyTest2
  * @date 2020/3/21
  */
 // 助记符

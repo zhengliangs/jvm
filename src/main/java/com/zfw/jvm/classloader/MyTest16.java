@@ -4,7 +4,7 @@ import java.io.*;
 
 /**
  * @author hero良
- * @className MyTest16
+ * @classname MyTest16
  * @date 2020/3/28
  */
 public class MyTest16 extends ClassLoader{

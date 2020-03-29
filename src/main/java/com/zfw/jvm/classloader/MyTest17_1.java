@@ -2,7 +2,7 @@ package com.zfw.jvm.classloader;
 
 /**
  * @author hero良
- * @className MyTest17_1
+ * @classname MyTest17_1
  */
 public class MyTest17_1 {
 

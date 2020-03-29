@@ -4,7 +4,7 @@ import java.util.UUID;
 
 /**
  * @author hero良
- * @className MyTest1
+ * @classname MyTest1
  * @date 2020/3/19
  */
 /*
