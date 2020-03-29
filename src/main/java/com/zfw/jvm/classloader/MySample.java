@@ -11,5 +11,7 @@ public class MySample {
         System.out.println("MySample is loaded by: " + this.getClass().getClassLoader());
 
         new MyCat();
+
+        System.out.println("from Sample: " + MyCat.class);
     }
 }

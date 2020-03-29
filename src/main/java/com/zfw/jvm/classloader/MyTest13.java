@@ -3,7 +3,6 @@ package com.zfw.jvm.classloader;
 /**
  * @author hero良
  * @className MyTest13
- * @description
  * @date 2020/3/25 9:40
  */
 public class MyTest13 {
