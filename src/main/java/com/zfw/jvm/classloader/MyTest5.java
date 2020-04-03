@@ -1,5 +1,7 @@
 package com.zfw.jvm.classloader;
 
+import java.util.Random;
+
 /**
  * @author hero良
  * @classname MyTest5
@@ -12,7 +14,7 @@ public class MyTest5 {
 }
 
 interface MyParent5{
-    int p = 4;
+    int p = 5;
 }
 interface MyChild5 extends MyParent5{
     int c = 3;

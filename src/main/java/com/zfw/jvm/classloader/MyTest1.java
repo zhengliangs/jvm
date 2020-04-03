@@ -13,11 +13,11 @@ import java.util.UUID;
  */
 public class MyTest1 {
     public static void main(String[] args) {
-        System.out.println(MyChild1.str1);
+        System.out.println(MyChild1.str);
     }
 }
 class MyParent1{
-    public static final String str = UUID.randomUUID().toString();
+    public static String str = "hello world";
 
     static {
         System.out.println("MyParent1 static block");
