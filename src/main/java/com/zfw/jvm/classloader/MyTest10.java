@@ -13,11 +13,11 @@ public class MyTest10 {
 
     public static void main(String[] args) {
         Parent10 parent10;
-        System.out.println("--------");
+        System.out.println();
         parent10 = new Parent10();
-        System.out.println("--------");
+        System.out.println();
         System.out.println(parent10.p);
-        System.out.println("--------");
+        System.out.println();
         System.out.println(Child10.c);
 //        new Child10();
 

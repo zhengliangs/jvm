@@ -14,7 +14,7 @@ public class MyTest5 {
 }
 
 interface MyParent5{
-    int p = 5;
+    int p = new Random().nextInt();
 }
 interface MyChild5 extends MyParent5{
     int c = 3;

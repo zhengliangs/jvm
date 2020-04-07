@@ -15,6 +15,9 @@ public class MyTest20 {
         Class<?> clazz1 = loader1.loadClass("com.zfw.jvm.classloader.MyPerson");
         Class<?> clazz2 = loader2.loadClass("com.zfw.jvm.classloader.MyPerson");
 
+        System.out.println(clazz1.getClassLoader());
+        System.out.println(clazz2.getClassLoader());
+
         System.out.println(clazz1 == clazz2);
 
         Object object1 = clazz1.newInstance();

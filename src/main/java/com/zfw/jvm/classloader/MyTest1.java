@@ -1,7 +1,5 @@
 package com.zfw.jvm.classloader;
 
-import java.util.UUID;
-
 /**
  * @author hero良
  * @classname MyTest1

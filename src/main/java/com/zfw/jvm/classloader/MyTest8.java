@@ -18,7 +18,7 @@ class FinalTest{
 
     //  final修饰且编译期可以确定  i  的值不会初始化 FinalTest
     //  否则会初始化
-    public static final int i = new Random().nextInt();
+    public static final int i = 1;
 
     static {
         System.out.println("FinalTest");
