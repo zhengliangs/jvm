@@ -45,9 +45,12 @@ jvm Examples of learning
 ## MyTest21
     类加载机制  命名空间（不同的类加载器加载）
 ## MyTest22
-    Extension类加载器示例
+    Extension类加载器示例；java -Djava.ext.dirs={path}
 ## MyTest23
+    使用自定义的类加载器作为系统类加载器-java -Djava.system.class.loader={自定义的类加载器}
 ## MyTest24
+    获取上下文类加载器；获取Thread的类加载器
 ## MyTest25
+    获取当前线程的上下文类加载器，然后set，打印当前线程类加载器及父类加载器
 ## MyTest26
 ## MyTest27
