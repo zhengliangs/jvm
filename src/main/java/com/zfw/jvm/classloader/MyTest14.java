@@ -18,7 +18,7 @@ public class MyTest14 {
         String path = "com/zfw/jvm/classloader/MyTest1.class";
 
         URL resource = classLoader.getResource(path);
-        System.out.println(resource.getContent());
+        System.out.println(resource.hashCode());
 
         Enumeration<URL> resources = classLoader.getResources(path);
         while (resources.hasMoreElements()){

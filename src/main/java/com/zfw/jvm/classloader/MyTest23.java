@@ -14,19 +14,18 @@ public class MyTest23 {
         System.out.println("system===  " + System.getProperty("java.class.path"));
 
         System.out.println("classloader : " + ClassLoader.class.getClassLoader());
-
         System.out.println("launcher: " + Launcher.class.getClassLoader());
 
-        System.out.println("-----------");
+        System.out.println();
 
+        //在classes目录下运行
         //java -Djava.system.class.loader=com.zfw.jvm.classloader.MyTest16 com.zfw.jvm.classloader.MyTest23
-
         System.out.println(System.getProperty("java.system.class.loader"));
 
-        System.out.println(MyTest23.class.getClassLoader());
+        System.out.println("MyTest23 :" + MyTest23.class.getClassLoader());
 
-        System.out.println(MyTest16.class.getClassLoader());
+        System.out.println("MyTest16 :" + MyTest16.class.getClassLoader());
 
-        System.out.println(ClassLoader.class.getClassLoader());
+        System.out.println("ClassLoader :" + ClassLoader.class.getClassLoader());
     }
 }
