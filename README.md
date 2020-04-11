@@ -61,3 +61,7 @@ jvm Examples of learning
     测试堆内存耗尽(OutOfMemoryError)
 ## MyTest2
     虚拟机栈溢出(StackOverflowError)
+## MyTest3
+    测试JvisualVM检测死锁
+## MyTest4
+    测试元空间内存溢出
