@@ -1,7 +1,7 @@
 package com.zfw.jvm.memory;
 
 /**
- * 虚拟机栈溢出(StackOverflowError)  -Xmss100k
+ * 虚拟机栈溢出(StackOverflowError)  -Xss100k
  * @author hero良
  * @classname MyTest2
  */
@@ -16,11 +16,11 @@ public class MyTest2 {
     public void test(){
         this.length++;
 
-        try {
-            Thread.sleep(300);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Thread.sleep(300);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         test();
     }
 
@@ -28,7 +28,7 @@ public class MyTest2 {
         MyTest2 myTest2 = new MyTest2();
         try {
             myTest2.test();
-        } catch (Throwable e) {
+        } catch (Throwable e) {//StackOverflowError和OutOfMemoryError都不属于Exception的子类
             System.out.println(myTest2.getLength());
             e.printStackTrace();
         }

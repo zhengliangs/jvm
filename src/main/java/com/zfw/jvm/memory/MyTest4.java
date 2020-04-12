@@ -9,6 +9,7 @@ import net.sf.cglib.proxy.MethodInterceptor;
  */
 public class MyTest4 {
 
+    //运行期生成Class对象，模拟元空间的内存溢出
     public static void main(String[] args) {
         for (; ; ){
             Enhancer enhancer = new Enhancer();
