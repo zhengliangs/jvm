@@ -1,6 +1,7 @@
 package com.zfw.jvm.gc;
 
 /**
+ * -verbose:gc -Xms20m -Xmx20m -Xmn10m  -XX:+PrintGCDetails -XX:SurvivorRatio=8
  * @author hero良
  * @classname MyTest1
  */
@@ -42,7 +43,6 @@ public class MyTest1 {
  Metaspace       used 3764K, capacity 4632K, committed 4864K, reserved 1056768K
   class space    used 415K, capacity 464K, committed 512K, reserved 1048576K
      */
-    //-verbose:gc -Xms20m -Xmx20m -Xmn10m  -XX:+PrintGCDetails -XX:SurvivorRatio=8
     public static void main(String[] args) {
         int size = 1024 * 1024;
 
