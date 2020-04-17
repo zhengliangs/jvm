@@ -12,20 +12,20 @@ public class MyTest5 {
 
         System.out.println(MyTest6.by);
 
-//        byte[] myAlloc1 = new byte[3 * size];
-//
-//        System.out.println("11111");
-//
-//        byte[] myAlloc2 = new byte[4 * size];
-//
-//        System.out.println("22222");
-//
-//        byte[] myAlloc3 = new byte[3 * size];
-//
-//        System.out.println("33333");
-//
-//        byte[] myAlloc4 = new byte[3 * size];
-//
-//        System.out.println("44444");
+        byte[] myAlloc1 = new byte[3 * size];
+
+        System.out.println("11111");
+
+        byte[] myAlloc2 = new byte[4 * size];
+
+        System.out.println("22222");
+
+        byte[] myAlloc3 = new byte[3 * size];
+
+        System.out.println("33333");
+
+        byte[] myAlloc4 = new byte[3 * size];
+
+        System.out.println("44444");
     }
 }
