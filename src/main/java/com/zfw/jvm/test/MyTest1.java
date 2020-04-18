@@ -19,4 +19,16 @@ public class MyTest1 {
         }
         System.out.println(j);
     }
+
+    @Test
+    public void t2(){
+        A b = new B();
+        b.show();
+    }
+
+    @Test
+    public void t3(){
+        A b = new A();
+        b.show();
+    }
 }
