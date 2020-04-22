@@ -3,7 +3,7 @@ package com.zfw.jvm.gc;
 /**
  * -XX:MaxTenuringThreshold=5 -XX:+PrintTenuringDistribution -XX:+PrintCommandLineFlags
  * @author hero良
- * @classname MyTest3
+ * @classname TestSynchronized
  */
 public class MyTest3 {
 

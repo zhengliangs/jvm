@@ -3,12 +3,12 @@ package com.zfw.jvm.test;
 /**
  * 测试try之后finally是否会修改返回值
  * @author hero良
- * @classname TestTryCatch
+ * @classname TryFinally
  * @date 2020/3/28
  */
-public class TestTryCatch {
+public class TryFinally {
     public static void main(String[] args) {
-        TestTryCatch test = new TestTryCatch();
+        TryFinally test = new TryFinally();
         System.out.println(test.fun());
         //结果为10
         System.out.println(test.fun1());

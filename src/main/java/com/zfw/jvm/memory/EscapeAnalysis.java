@@ -1,4 +1,6 @@
-package com.zfw.jvm.test;
+package com.zfw.jvm.memory;
+
+import com.zfw.jvm.test.Entity;
 
 import java.time.Instant;
 
@@ -6,12 +8,12 @@ import java.time.Instant;
  * 测试逃逸分析
  * -Xmx10m -Xms10m -XX:+PrintGCDetails -XX:+EliminateAllocations -XX:+DoEscapeAnalysis
  * @author hero良
- * @classname TestEscape
+ * @classname EscapeAnalysis
  */
-public class TestEscape {
+public class EscapeAnalysis {
 
     public static void alloc(){
-        User user = new User(1, "test");
+        Entity entity = new Entity(1, "test");
     }
 
     public static void main(String[] args) {

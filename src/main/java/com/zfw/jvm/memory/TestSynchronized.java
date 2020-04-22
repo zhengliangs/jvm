@@ -3,11 +3,11 @@ package com.zfw.jvm.memory;
 /**
  * 线程产生死锁
  * @author hero良
- * @classname MyTest3
+ * @classname TestSynchronized
  */
 
 //不加sleep时，Thread-A 总阻止3，等待1  Thread-B总阻止1 等待0
-public class MyTest3 {
+public class TestSynchronized {
 
     public static void main(String[] args) {
         new Thread(()->A.method(), "Thread-A").start();

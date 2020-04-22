@@ -2,7 +2,7 @@ package com.zfw.jvm.classloader;
 
 /**
  * @author hero良
- * @classname MyTest2
+ * @classname StackOverflowError
  * @date 2020/3/21
  */
 // 助记符

@@ -15,7 +15,7 @@ public class MyTest14 {
         ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
 
         //
-        String path = "com/zfw/jvm/classloader/MyTest1.class";
+        String path = "com/zfw/jvm/classloader/JunitTest.class";
 
         URL resource = classLoader.getResource(path);
         System.out.println(resource.hashCode());
