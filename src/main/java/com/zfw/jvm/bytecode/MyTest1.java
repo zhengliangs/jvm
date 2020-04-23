@@ -2,7 +2,7 @@ package com.zfw.jvm.bytecode;
 
 /**
  * @author hero良
- * @classname JunitTest
+ * @classname MyTest1
  */
 public class MyTest1 {
 

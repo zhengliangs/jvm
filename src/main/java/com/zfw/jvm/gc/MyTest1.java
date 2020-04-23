@@ -3,7 +3,7 @@ package com.zfw.jvm.gc;
 /**
  * -verbose:gc -Xms20m -Xmx20m -Xmn10m  -XX:+PrintGCDetails -XX:SurvivorRatio=8
  * @author hero良
- * @classname JunitTest
+ * @classname MyTest1
  */
 public class MyTest1 {
 

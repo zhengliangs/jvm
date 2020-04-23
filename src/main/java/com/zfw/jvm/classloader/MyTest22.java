@@ -10,7 +10,7 @@ public class MyTest22 {
         System.out.println("MyTest22 init");
     }
 
-    //F:\study\code\jvm\out\production\classes>jar cvf test.jar com\zfw\jvm\classloader\JunitTest
+    //F:\study\code\jvm\out\production\classes>jar cvf test.jar com\zfw\jvm\classloader\MyTest1
     public static void main(String[] args) {
         System.out.println(MyTest22.class.getClassLoader());
 

@@ -3,7 +3,7 @@ package com.zfw.jvm.g1;
 /**
  * -verbose:gc -Xms10m -Xmx10m -XX:+UseG1GC -XX:+PrintGCDetails -XX:+PrintGcDateStamps -XX:MaxGCPauseMillis=200m
  * @author hero良
- * @classname JunitTest
+ * @classname MyTest1
  */
 public class MyTest1 {
 

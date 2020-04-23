@@ -3,7 +3,7 @@ package com.zfw.jvm.gc;
 /**
  * -XX:PretenureSizeThreshold=4194304 -XX:+UseSerialGC
  * @author hero良
- * @classname StackOverflowError
+ * @classname MyTest2
  */
 public class MyTest2 {
 
