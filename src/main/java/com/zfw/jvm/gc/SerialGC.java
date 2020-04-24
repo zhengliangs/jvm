@@ -6,6 +6,8 @@ import java.util.Properties;
 import java.util.Random;
 
 /**
+ * -verbose:gc -Xmx20m -Xms20m -Xmn10m -XX:SurvivorRatio=8 -XX:+PrintGCDetails -XX:+UseSerialGC
+ *
  * @author hero良
  * @classname SerialGC
  */

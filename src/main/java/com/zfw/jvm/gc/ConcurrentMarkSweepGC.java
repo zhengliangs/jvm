@@ -2,10 +2,11 @@ package com.zfw.jvm.gc;
 
 /**
  * -verbose:gc -Xmx20m -Xms20m -Xmn10m -XX:SurvivorRatio=8 -XX:+PrintGCDetails -XX:+UseConcMarkSweepGC
+ *
  * @author hero良
- * @classname MyTest5
+ * @classname ConcurrentMarkSweepGC
  */
-public class MyTest5 {
+public class ConcurrentMarkSweepGC {
 
     public static void main(String[] args) {
         int size = 1024 * 1024;

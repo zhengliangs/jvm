@@ -1,11 +1,14 @@
 package com.zfw.jvm.gc;
 
 /**
- * -verbose:gc -Xms20m -Xmx20m -Xmn10m  -XX:+PrintGCDetails -XX:SurvivorRatio=8
+ * --verbose:gc -Xms20m -Xmx20m -Xmn10m  -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:+PrintCommandLineFlags
+ *
+ * JDK8 默认新生代使用Parallel Scavenge来收集，老年代默认使用Parallel Old来收集，使用PrintCommandLineFlags来打印虚拟机启动参数来查看
+ *
  * @author hero良
- * @classname MyTest1
+ * @classname ParallelGC
  */
-public class MyTest1 {
+public class ParallelGC {
 
     /*
      [GC (Allocation Failure) [PSYoungGen: 6637K->1000K(9216K)] 6637K->3156K(19456K), 0.0020617 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
@@ -33,15 +36,16 @@ public class MyTest1 {
 
      5637 - 3481 = 2156 晋升到老年代的
 
-       Heap
- PSYoungGen      total 9216K, used 6525K [0x00000000ff600000, 0x0000000100000000, 0x0000000100000000)
-  eden space 8192K, 67% used [0x00000000ff600000,0x00000000ffb65748,0x00000000ffe00000)
-  from space 1024K, 97% used [0x00000000ffe00000,0x00000000ffefa020,0x00000000fff00000)
-  to   space 1024K, 0% used [0x00000000fff00000,0x00000000fff00000,0x0000000100000000)
- ParOldGen       total 10240K, used 2156K [0x00000000fec00000, 0x00000000ff600000, 0x00000000ff600000)
-  object space 10240K, 21% used [0x00000000fec00000,0x00000000fee1b3c8,0x00000000ff600000)
- Metaspace       used 3764K, capacity 4632K, committed 4864K, reserved 1056768K
-  class space    used 415K, capacity 464K, committed 512K, reserved 1048576K
+           Heap
+     PSYoungGen      total 9216K, used 6525K [0x00000000ff600000, 0x0000000100000000, 0x0000000100000000)
+      eden space 8192K, 67% used [0x00000000ff600000,0x00000000ffb65748,0x00000000ffe00000)
+      from space 1024K, 97% used [0x00000000ffe00000,0x00000000ffefa020,0x00000000fff00000)
+      to   space 1024K, 0% used [0x00000000fff00000,0x00000000fff00000,0x0000000100000000)
+     ParOldGen       total 10240K, used 2156K [0x00000000fec00000, 0x00000000ff600000, 0x00000000ff600000)
+      object space 10240K, 21% used [0x00000000fec00000,0x00000000fee1b3c8,0x00000000ff600000)
+     Metaspace       used 3764K, capacity 4632K, committed 4864K, reserved 1056768K
+      class space    used 415K, capacity 464K, committed 512K, reserved 1048576K
+
      */
     public static void main(String[] args) {
         int size = 1024 * 1024;
