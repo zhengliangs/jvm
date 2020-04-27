@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * java.lang.OutOfMemoryError: Java heap space
  * 堆溢出
+ *
  * -Xms5m -Xmx10m -XX:+HeapDumpOnOutOfMemoryError
- * JunitTest: Java heap space
+ *
  * @author hero良
  * @classname JunitTest
  */

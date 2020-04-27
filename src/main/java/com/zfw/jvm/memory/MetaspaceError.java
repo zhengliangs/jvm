@@ -4,9 +4,11 @@ import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 
 /**
- * -XX:MetaspaceSize=5m -XX:MaxMetaspaceSize=10m
  * java.lang.OutOfMemoryError: Metaspace
  * 运行期间不停的动态生成Class，最后会导致元空间的溢出
+ *
+ * -XX:MetaspaceSize=5m -XX:MaxMetaspaceSize=10m
+ *
  * @author hero良
  * @classname MetaspaceError
  */

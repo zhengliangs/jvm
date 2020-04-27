@@ -1,8 +1,13 @@
 package com.zfw.jvm.memory;
 
 /**
- * 虚拟机栈溢出(StackOverflowError)  -Xss100k
+ * java.lang.StackOverflowError
+ *
+ * 虚拟机栈溢出(StackOverflowError)
  * 虚拟机栈会出现OutOfMemoryError和StackOverflowError
+ *
+ * -Xss100k
+ *
  * @author hero良
  * @classname StackOverflowError
  */

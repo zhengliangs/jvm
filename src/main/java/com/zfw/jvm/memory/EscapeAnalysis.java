@@ -6,6 +6,7 @@ import java.time.Instant;
 
 /**
  * 测试逃逸分析
+ *
  * -Xmx10m -Xms10m -XX:+PrintGCDetails -XX:+EliminateAllocations -XX:+DoEscapeAnalysis
  * @author hero良
  * @classname EscapeAnalysis

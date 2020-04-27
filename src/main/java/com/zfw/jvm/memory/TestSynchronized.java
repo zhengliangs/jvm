@@ -1,6 +1,8 @@
 package com.zfw.jvm.memory;
 
 /**
+ * 如果synchronized关键字修饰的是静态方法，则锁的则为当前类的Class对象
+ *
  * 线程产生死锁
  * @author hero良
  * @classname TestSynchronized
@@ -17,9 +19,6 @@ public class TestSynchronized {
 }
 
 class A{
-    /*
-        如果synchronized关键字修饰的是静态方法，则锁的则为当前类的Class对象
-     */
     public static synchronized void method(){
         System.out.println("Method from A");
         try {

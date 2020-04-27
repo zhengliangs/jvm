@@ -4,8 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * java.lang.OutOfMemoryError: Java heap space
+ *
+ * 字符串常量池溢出，表示字符串常量池移到了堆中
+ *
  * -Xms10m -Xmx10m
- * 字符串常量池溢出
+ *
  * @author hero良
  * @classname StringConstantPoolError
  */
@@ -15,7 +19,6 @@ public class StringConstantPoolError {
 
     /*
      Exception in thread "main" java.lang.JunitTest: Java heap space
-     Java heap space 溢出，表示字符串常量池移到了堆中
      */
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
@@ -23,7 +26,6 @@ public class StringConstantPoolError {
             String str = base + base;
             base = str;
             list.add(str.intern());
-
         }
     }
 }
