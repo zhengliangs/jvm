@@ -1,6 +1,8 @@
 package com.zfw.jvm.gc;
 
 /**
+ * -verbose:gc -XX:+PrintTLAB -XX:+UseAdaptiveSizePolicy -XX:+PrintGCDetails
+ *
  * @author hero良
  * @classname TLAB
  */
@@ -12,6 +14,8 @@ public class TLAB {
         byte[] alloc2 = new byte[size * 2];
         byte[] alloc3 = new byte[size * 2];
         byte[] alloc4 = new byte[size * 2];
+        byte[] alloc5 = new byte[size * 2];
+        byte[] alloc6 = new byte[size * 2];
         System.out.println("hello world");
     }
 }
