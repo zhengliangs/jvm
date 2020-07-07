@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * java.lang.OutOfMemoryError: Java heap space
  * 堆溢出
+ * java.lang.OutOfMemoryError: Java heap space
  *
  * -Xms5m -Xmx10m -XX:+HeapDumpOnOutOfMemoryError
  *

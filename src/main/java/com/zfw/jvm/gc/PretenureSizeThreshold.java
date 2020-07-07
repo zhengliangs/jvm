@@ -2,8 +2,8 @@ package com.zfw.jvm.gc;
 
 /**
  * -verbose:gc -Xmx40m -Xms40m -Xmn20m -XX:SurvivorRatio=8 -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:PretenureSizeThreshold=4194304
- * 在ParallelGC下此参数不生效
- * 在UseSerialGC和ConcMarkSweepGC下此参数才生效
+ * 在ParallelGC收集器下不生效
+ * 在UseSerialGC和ConcMarkSweepGC收集器下有效
  *
  * 新分配的对象如果大小超过PretenureSizeThreshold设置的值，则直接分配在老年代
  *

@@ -1,11 +1,10 @@
-package com.zfw.jvm.test;
+package com.zfw.jvm.memory;
 
 /**
  * @author hero良
- * @className TestClass
+ * @className TestNewClass
  */
-public class TestClass {
-
+public class TestNewClass {
 
     /**
      * 通过一个类new出来的不同实例，是不相等的，因为类的实例分别存在了heap中

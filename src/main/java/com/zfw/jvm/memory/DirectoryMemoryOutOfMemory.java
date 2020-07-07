@@ -6,7 +6,6 @@ import java.lang.reflect.Field;
 
 public class DirectoryMemoryOutOfMemory {
 
-
     static int ONE_MB = 1024 * 1024;
     static int index = 0 ;
     public static void main(String[] args) {

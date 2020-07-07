@@ -1,4 +1,4 @@
-package com.zfw.jvm.test;
+package com.zfw.jvm.memory;
 
 /**
  * @author hero良

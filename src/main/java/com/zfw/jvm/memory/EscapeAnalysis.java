@@ -1,7 +1,5 @@
 package com.zfw.jvm.memory;
 
-import com.zfw.jvm.test.Entity;
-
 import java.time.Instant;
 
 /**
