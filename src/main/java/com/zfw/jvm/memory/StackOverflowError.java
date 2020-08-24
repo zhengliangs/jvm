@@ -1,12 +1,11 @@
 package com.zfw.jvm.memory;
 
 /**
- * java.lang.StackOverflowError
- *
- * 虚拟机栈溢出(StackOverflowError)
- * 虚拟机栈会出现OutOfMemoryError和StackOverflowError
+ * 不停的创建栈帧，导致访问的深度超过了虚拟机栈的最大深度，就会抛出StackOverflowError
  *
  * -Xss100k
+ *
+ * java.lang.StackOverflowError
  *
  * @author hero良
  * @classname StackOverflowError
@@ -35,7 +34,7 @@ public class StackOverflowError {
         try {
             stackOverflowError.test();
             /*
-            StackOverflowError 、 OutOfMemoryError都不属于Exception的子类
+            StackOverflowError 、 OutOfMemoryError都不属于Exception的子类zhid
              */
         } catch (Throwable e) {
             System.out.println(stackOverflowError.getLength());

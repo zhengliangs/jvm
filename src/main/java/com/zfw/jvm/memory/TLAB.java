@@ -1,4 +1,4 @@
-package com.zfw.jvm.gc;
+package com.zfw.jvm.memory;
 
 /**
  * -verbose:gc -XX:+PrintTLAB -XX:+UseAdaptiveSizePolicy -XX:+PrintGCDetails

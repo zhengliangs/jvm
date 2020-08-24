@@ -1,11 +1,11 @@
 package com.zfw.jvm.memory;
 
 /**
- * 栈溢出
+ *
  * @author hero良
- * @classname StackOOM
+ * @classname StackOutOfMemoryError
  */
-public class StackOOM {
+public class StackOutOfMemoryError {
 
     private void dontStop() {
         while (true) {
@@ -15,13 +15,12 @@ public class StackOOM {
     //通过不断的创建新的线程使Stack内存耗尽
     public void stackLeakByThread() {
         while (true) {
-            Thread thread = new Thread(() -> dontStop());
-            thread.start();
+            new Thread(() -> dontStop()).start();
         }
     }
 
     public static void main(String[] args) {
-        StackOOM oom = new StackOOM();
+        StackOutOfMemoryError oom = new StackOutOfMemoryError();
         oom.stackLeakByThread();
     }
 }
