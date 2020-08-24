@@ -1,7 +1,8 @@
 package com.zfw.jvm.gc;
 
 /**
- * -verbose:gc -Xmx40m -Xms40m -Xmn20m -XX:SurvivorRatio=8 -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:PretenureSizeThreshold=4194304
+ * -verbose:gc -Xmx40m -Xms40m -Xmn20m -XX:SurvivorRatio=8 -XX:+PrintGCDetails -XX:+PrintCommandLineFlags
+ * -XX:PretenureSizeThreshold=4194304
  * 在ParallelGC收集器下不生效
  * 在UseSerialGC和ConcMarkSweepGC收集器下有效
  *
