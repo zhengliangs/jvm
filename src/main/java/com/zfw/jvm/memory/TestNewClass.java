@@ -13,11 +13,13 @@ public class TestNewClass {
         Entity entity1 = new Entity(1, "1");
         Entity entity2 = new Entity(2, "2");
 
-        System.out.println(entity1 == entity2);//false
+        //false
+        System.out.println(entity1 == entity2);
 
         Class clazz1 = entity1.getClass();
         Class clazz2 = entity2.getClass();
 
-        System.out.println(clazz1 == clazz2);//true
+        //true
+        System.out.println(clazz1 == clazz2);
     }
 }

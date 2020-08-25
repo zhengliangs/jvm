@@ -33,9 +33,7 @@ public class StackOverflowError {
         StackOverflowError stackOverflowError = new StackOverflowError();
         try {
             stackOverflowError.test();
-            /*
-            StackOverflowError 、 OutOfMemoryError都不属于Exception的子类zhid
-             */
+        //StackOverflowError 、 OutOfMemoryError都不属于Exception的子类zhid
         } catch (Throwable e) {
             System.out.println(stackOverflowError.getLength());
             e.printStackTrace();

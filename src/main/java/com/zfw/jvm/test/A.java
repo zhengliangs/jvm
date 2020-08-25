@@ -29,7 +29,7 @@ class B extends A{
     String d = "Java";
 
     public void show(){
-        super.show();
+//        super.show();
         System.out.println("Class B");
     }
 }

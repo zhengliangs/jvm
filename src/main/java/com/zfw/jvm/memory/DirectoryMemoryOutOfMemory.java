@@ -11,7 +11,6 @@ public class DirectoryMemoryOutOfMemory {
     public static void main(String[] args) {
 
         try {
-
             Field field = Unsafe.class.getDeclaredField("theUnsafe");
             field.setAccessible(true);
             Unsafe unsafe = (Unsafe)field.get(null);
@@ -20,10 +19,7 @@ public class DirectoryMemoryOutOfMemory {
                 index ++;
                 unsafe.allocateMemory(ONE_MB);
             }
-        } catch (Exception e) {
-            System.out.println("index  : " + index);
-            e.printStackTrace();
-        } catch (Error e) {
+        } catch (Exception | Error e) {
             System.out.println("index  : " + index);
             e.printStackTrace();
         }

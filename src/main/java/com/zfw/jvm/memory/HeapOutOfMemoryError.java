@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 堆溢出，生成堆 dump 文件
+ * 堆溢出时生成 dump 文件
  *
  * -Xms5m -Xmx10m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=D:\study\log_hprof\gc.hprof
  *

@@ -11,9 +11,9 @@ import java.util.List;
  * java.lang.OutOfMemoryError: Java heap space
  *
  * @author hero良
- * @classname StringConstantPoolError
+ * @classname StringConstantPoolOutOfMemoryError
  */
-public class StringConstantPoolError {
+public class StringConstantPoolOutOfMemoryError {
 
     static String base = "string";
 
