@@ -7,6 +7,7 @@ import java.util.Random;
 
 /**
  * 串行垃圾收集器
+ *
  * -verbose:gc -Xmx20m -Xms20m -Xmn10m -XX:SurvivorRatio=8 -XX:+PrintGCDetails -XX:+UseSerialGC
  *
  * @author hero良

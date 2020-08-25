@@ -2,6 +2,7 @@ package com.zfw.jvm.gc;
 
 /**
  * 并发垃圾收集器
+ *
  * -verbose:gc -Xmx20m -Xms20m -Xmn10m -XX:SurvivorRatio=8 -XX:+PrintGCDetails -XX:+UseConcMarkSweepGC
  *
  * @author hero良

@@ -1,5 +1,5 @@
 # jvm
-jvm Examples of learning
+learn JVM example
 
 ## MyTest1
     对于静态字段来说，只有直接定义了该字段的类才会被初始化，类初始化的同时，会要求父类已经初始化完毕
@@ -57,11 +57,21 @@ jvm Examples of learning
 
 ## --------------------------------------------------------------------------------------
 # memory
-## MyTest1
-    测试堆内存耗尽(OutOfMemoryError)
-## MyTest2
-    虚拟机栈溢出(StackOverflowError)
-## MyTest3
-    测试JvisualVM检测死锁
-## MyTest4
-    测试元空间内存溢出
+## DirectoryMemoryOutOfMemory
+    
+## EscapeAnalysis
+    逃逸分析
+## HeapOutOfMemoryError
+    堆内存发生OOM
+## MetaspaceOutOfMemoryError
+    元空间发生OOM
+## StackOutOfMemoryError
+    栈发生OOM
+## StackOverflowError
+    栈发生Overflow
+## StringConstantPoolOutOfMemoryError
+    字符创常量池发生OOM
+## TestNewClass
+    不同实例的Class对象相等
+## TestSynchronized
+    给静态方法加锁，锁的是Class对象
