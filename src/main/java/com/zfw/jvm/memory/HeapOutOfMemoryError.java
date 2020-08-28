@@ -19,8 +19,6 @@ public class HeapOutOfMemoryError {
         List<HeapOutOfMemoryError> list = new ArrayList<>();
         for(; ; ){
             list.add(new HeapOutOfMemoryError());
-            //赋值后再次尝试
-//            System.gc();
         }
     }
 }
