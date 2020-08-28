@@ -4,6 +4,9 @@ import sun.misc.Unsafe;
 
 import java.lang.reflect.Field;
 
+/**
+ * 直接内存溢出
+ */
 public class DirectoryMemoryOutOfMemory {
 
     static int ONE_MB = 1024 * 1024;
