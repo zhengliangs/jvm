@@ -1,8 +1,6 @@
 package com.zfw.jvm.bytecode;
 
 /**
- *
- *
  * @author hero良
  * @classname MyTest1
  */
